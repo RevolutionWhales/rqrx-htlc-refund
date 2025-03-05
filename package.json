@@ -1,0 +1,22 @@
+{
+  "name": "@mirrorboards-blockchain/rsquared-htlc-manager",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "refund": "export INFURA_API_KEY=XXX-XXX-XXXXXX-XXX-XXX && export ETHERSCAN_API_KEY=XXX-XXX-XXXXXX-XXX-XXXXXX-XXX-XXX && tsx src/refund.ts",
+    "abi": "export INFURA_API_KEY=XXX-XXX-XXXXXX-XXX-XXXXXX-XXX-XXX && export ETHERSCAN_API_KEY=XXX-XXX-XXXXXX-XXX-XXXXXX-XXX-XXX && tsx src/abi.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mirrorboards/tsconfig": "workspace:*",
+    "tsx": "catalog:"
+  },
+  "dependencies": {
+    "@shazow/whatsabi": "0.14.1",
+    "ethers": "6.13.2",
+    "viem": "catalog:"
+  }
+}

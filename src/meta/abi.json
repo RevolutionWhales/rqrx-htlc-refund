@@ -1,0 +1,139 @@
+[
+    {
+        "type": "function",
+        "selector": "0x7249fbb6",
+        "sig": "refund(bytes32)",
+        "name": "refund",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x8da5cb5b",
+        "sig": "owner()",
+        "name": "owner",
+        "constant": false,
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "function",
+        "selector": "0xced72f87",
+        "sig": "getFee()",
+        "name": "getFee",
+        "constant": false,
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "function",
+        "selector": "0xe16c7d98",
+        "sig": "getContract(bytes32)",
+        "name": "getContract",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0xf2fde38b",
+        "sig": "transferOwnership(address)",
+        "name": "transferOwnership",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x335ef5bd",
+        "sig": "newContract(address,bytes32,uint256)",
+        "name": "newContract",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": ""
+            },
+            {
+                "type": "bytes32",
+                "name": ""
+            },
+            {
+                "type": "uint256",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x63615149",
+        "sig": "withdraw(bytes32,bytes32)",
+        "name": "withdraw",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": ""
+            },
+            {
+                "type": "bytes32",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x69b59e75",
+        "sig": "collectFee(address)",
+        "name": "collectFee",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x69fe0e2d",
+        "sig": "setFee(uint256)",
+        "name": "setFee",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": ""
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "selector": "0x715018a6",
+        "sig": "renounceOwnership()",
+        "name": "renounceOwnership",
+        "constant": false,
+        "payable": false,
+        "inputs": []
+    }
+]
